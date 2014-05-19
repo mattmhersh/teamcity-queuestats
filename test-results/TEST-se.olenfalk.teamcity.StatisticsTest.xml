@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="D727" name="se.olenfalk.teamcity.StatisticsTest" skipped="0" tests="1" time="0.145" timestamp="2014-04-30T05:38:38">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="dist" value="./dist" />
+    <property name="lib" value="./lib" />
+    <property name="os.name" value="Windows 8.1" />
+    <property name="tc.home" value="/TeamCity/" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre8\lib\resources.jar;C:\Program Files\Java\jre8\lib\rt.jar;C:\Program Files\Java\jre8\lib\sunrsasign.jar;C:\Program Files\Java\jre8\lib\jsse.jar;C:\Program Files\Java\jre8\lib\jce.jar;C:\Program Files\Java\jre8\lib\charsets.jar;C:\Program Files\Java\jre8\lib\jfr.jar;C:\Program Files\Java\jre8\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Program Files (x86)\Java\apache-ant-1.9.3\bin\.." />
+    <property name="java.runtime.version" value="1.8.0_05-b13" />
+    <property name="user.name" value="mhersh" />
+    <property name="deploy.dir" value="/TeamCity/.BuildServer/plugins" />
+    <property name="user.language" value="en" />
+    <property name="build" value="./build" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre8\bin" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="queuestats" />
+    <property name="java.version" value="1.8.0_05" />
+    <property name="user.timezone" value="America/New_York" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre8\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="./src" />
+    <property name="tc.data.dir" value="/TeamCity/.BuildServer" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre8" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master\build.xml" />
+    <property name="os.version" value="6.3" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.5-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Program Files (x86)\Java\apache-ant-1.9.3\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\mhersh" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="plugin.name" value="queuestats" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre8\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Sybase\DBISQL\bin;C:\Sybase\DataAccess64\ADONET\dll;C:\Sybase\DataAccess\ADONET\dll;C:\Sybase\DataAccess64\ODBC\dll;C:\Sybase\DataAccess\ODBC\dll;C:\Sybase\DataAccess64\OLEDB\dll;C:\Sybase\DataAccess\OLEDB\dll;C:\Sybase\OCS-15_0\lib3p64;C:\Sybase\OCS-15_0\lib3p;C:\Sybase\OCS-15_0\dll;C:\Sybase\OCS-15_0\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\LINQPad4;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Microsoft SDKs\Windows Azure\CLI\wbin;C:\windows\idmu\common;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\WinMerge;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Ruby200-x64\bin;C:\SYBASE\DataAccess\ADONET\dll;C:\Chocolatey\bin;C:\Users\mhersh\AppData\Roaming\scriptcs;C:\Program Files (x86)\Git\cmd;C:\OptiPNG;C:\Users\mhersh\AppData\Roaming\npm;C:\Program Files (x86)\Java\jdk1.5.0_22\bin;C:\Program Files (x86)\Java\apache-ant-1.9.3\bin;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner se.olenfalk.teamcity.StatisticsTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master\test-results\TEST-se.olenfalk.teamcity.StatisticsTest.xml crashfile=C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master\junitvmwatcher5320003542518092968.properties propsfile=C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master\junit4821715174483429039.properties" />
+    <property name="java.class.path" value="C:\TeamCity\webapps\ROOT\WEB-INF\lib\activation.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\agent-upgrade.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\annotations.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\aopalliance-1.0.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\buildAgent-upgrade.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\cglib-nodep-2.1_3.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\cl.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\cloud-interface.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\cloud-server.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\cloud-shared.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\common-api.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\common-impl.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-beanutils-core.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-cli-1.2.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-codec-1.3.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-collections-3.2.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-compress-1.5.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-dbcp-1.3.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-exec-1.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-fileupload-1.2.2.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-httpclient-3.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-io-1.3.2.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-lang.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-logging.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\commons-pool-1.5.6.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\db-upgrade.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\db.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\duplicator-util.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\ehcache-1.6.0-patch.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\ehcache-1.6.0.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\freemarker.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\gson-1.7.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\guava-13.0.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\hsqldb.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\hsqldb1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\ide-notificator-common.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\ide-notificator.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\idea-settings-server.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\idea-settings.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\inspections-util.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\issue-tracker-impl.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jaxen-1.1.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jcommon-1.0.12.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jdom.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jfreechart-1.0.9.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jhighlight-njcms-patch.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jnlp-servlet.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jnlp.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\joda-time-1.5.2.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jsr305-1.3.9.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\jstl.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\log4j-1.2.12.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\lucene-core-2.9.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\mail.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\nekohtml.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\notificator-common.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\openapi.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\opencsv-1.8.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\packtag-3.8.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\patches-impl.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\processesTerminator.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\quartz-1.6.0.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\remote-api-impl.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\resources_en.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\runtime-util.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\server-api.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\server-common-api.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\server-vcs-api.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\server.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\serviceMessages.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\slf4j-api-1.7.5.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\slf4j-log4j12-1.7.5.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\spring-ldap-1.3.0.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\spring-security.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\spring-webmvc.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\spring.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\standard.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\teamcity.coverage-server.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\tomcat-jdbc-7.0.23.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\tomcat-juli-7.0.23.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\toolLoader.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\trove4j.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\user-agent-utils-1.12.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\util.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\web.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\xercesImpl.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\xmlrpc-2.0.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\xpp3-1.1.4c.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\xstream-1.4.1.jar;C:\TeamCity\webapps\ROOT\WEB-INF\lib\yuicompressor-2.4.8.jar;C:\TeamCity\lib\annotations-api.jar;C:\TeamCity\lib\catalina-ant.jar;C:\TeamCity\lib\catalina-ha.jar;C:\TeamCity\lib\catalina-tribes.jar;C:\TeamCity\lib\catalina.jar;C:\TeamCity\lib\ecj-4.2.1.jar;C:\TeamCity\lib\el-api.jar;C:\TeamCity\lib\jasper-el.jar;C:\TeamCity\lib\jasper.jar;C:\TeamCity\lib\jsp-api.jar;C:\TeamCity\lib\servlet-api.jar;C:\TeamCity\lib\tomcat-api.jar;C:\TeamCity\lib\tomcat-coyote.jar;C:\TeamCity\lib\tomcat-dbcp.jar;C:\TeamCity\lib\tomcat-i18n-es.jar;C:\TeamCity\lib\tomcat-i18n-fr.jar;C:\TeamCity\lib\tomcat-i18n-ja.jar;C:\TeamCity\lib\tomcat-jdbc.jar;C:\TeamCity\lib\tomcat-util.jar;C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master\lib\junit-4.10.jar;C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master\build;C:\Program Files (x86)\Altova\xmlspy\XMLSpyInterface.jar;C:\Program Files (x86)\Java\apache-ant-1.9.3\lib\ant-launcher.jar;C:\Program Files (x86)\Java\apache-ant-1.9.3\lib\ant.jar;C:\Program Files (x86)\Java\apache-ant-1.9.3\lib\ant-junit.jar;C:\Program Files (x86)\Java\apache-ant-1.9.3\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
+    <property name="tc.lib" value="/TeamCity//webapps/ROOT/WEB-INF/lib" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="compile.debug" value="true" />
+    <property name="java.io.tmpdir" value="C:\Users\mhersh\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre8\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.file.type.queuestats" value="file" />
+    <property name="ant.core.lib" value="C:\Program Files (x86)\Java\apache-ant-1.9.3\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.file.queuestats" value="C:\Users\mhersh\Downloads\teamcity-queuestats-master\teamcity-queuestats-master\build.xml" />
+    <property name="ant.project.invoked-targets" value="deploy" />
+  </properties>
+  <testcase classname="se.olenfalk.teamcity.StatisticsTest" name="testFormatTimeDiff" time="0.003" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -7,8 +7,8 @@
 	<property name="compile.debug" value="true"/>
 	<property name="plugin.name" value="queuestats" />
 
-	<property name="tc.home" value="/Users/mauve/Build/TeamCity"/>
-	<property name="tc.data.dir" value="/Users/mauve/.BuildServer"/>
+	<property name="tc.home" value="/TeamCity/"/>
+	<property name="tc.data.dir" value="/TeamCity/.BuildServer"/>
 	<property name="tc.lib" value="${tc.home}/webapps/ROOT/WEB-INF/lib"/>
 	<property name="deploy.dir" value="${tc.data.dir}/plugins"/>
 
@@ -29,11 +29,13 @@
 
 
 	<target name="compile" depends="init">
-		<javac srcdir="${src}"
+		<javac includeantruntime="false"
+			   srcdir="${src}"
                destdir="${build}"
                debug="${compile.debug}"
-               source="1.5"
-               target="1.5">
+			   source="1.5"
+               target="1.5"               
+               >
 			<classpath refid="compile.classpath"/>
 		</javac>
 	</target>

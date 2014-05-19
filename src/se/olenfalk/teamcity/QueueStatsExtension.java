@@ -37,13 +37,22 @@ public class QueueStatsExtension
 	private BuildHistory buildHistory;
 
 	public QueueStatsExtension(PagePlaces pagePlaces,
-							   BuildHistory bh) {
+							   BuildHistory bh) {		
 		super(pagePlaces);
+		
+		LOG.info("Starting QueueStatsExtension 1");
 		setIncludeUrl("queuestats.jsp");
+
+		LOG.info("Starting QueueStatsExtension 2");
 		setPlaceId(PlaceId.AGENTS_TAB);
+
+		LOG.info("Starting QueueStatsExtension 3");
 		setPluginName("queuestats");
+
+		LOG.info("Starting QueueStatsExtension 4");
 		register();
 
+		LOG.info("Starting QueueStatsExtension 5");
 		buildHistory = bh;
 		LOG.info("BuildHistory: " + (buildHistory == null ? "null" : "YEAH"));
 
@@ -61,7 +70,18 @@ public class QueueStatsExtension
 	}
 
 	@Override
+	public String getTabTitle(javax.servlet.http.HttpServletRequest request) {
+		return "Queue Statistics";
+	}
+
+
+	@Override
 	public boolean isVisible() {
+		return true;
+	}
+
+	@Override
+	public boolean isAvailable(javax.servlet.http.HttpServletRequest request) {
 		return true;
 	}
 
